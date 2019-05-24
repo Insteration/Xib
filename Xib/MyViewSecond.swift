@@ -1,5 +1,5 @@
 //
-//  MyView.swift
+//  MyViewSecond.swift
 //  Xib
 //
 //  Created by Art Karma on 5/24/19.
@@ -8,33 +8,23 @@
 
 import UIKit
 
-@IBDesignable class MyView: UIView {
+class MyViewSecond: UIView {
 
-    @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var mySwitch: UISwitch!
     
-    @IBInspectable var textLabelText: String {
-        
-        get {
-            return myLabel.text!
-        }
-        
-        set (textLabelText) {
-                myLabel.text = textLabelText
-            }
-    }
-    
-    var view: UIView!
-    var nibName: String = "MyView"
-    
+    var myView: UIView!
+    var nibName = "MyViewSecond"
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
     }
     
     required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+         super.init(coder: aDecoder)
         setupView()
     }
+    
     
     func loadFromNib() -> UIView {
         
@@ -46,11 +36,10 @@ import UIKit
     }
     
     func setupView() {
-        view = loadFromNib()
-        view.frame = bounds
-        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        view.backgroundColor = .purple
-        addSubview(view)
+        myView = loadFromNib()
+        myView.frame = bounds
+        myView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        myView.backgroundColor = .purple
+        addSubview(myView)
     }
-    
 }

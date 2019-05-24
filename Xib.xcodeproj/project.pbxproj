@@ -14,6 +14,8 @@
 		4A0A87E82297DC7700E3E95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0A87E62297DC7700E3E95E /* LaunchScreen.storyboard */; };
 		4A0A87F02297DCEA00E3E95E /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0A87EF2297DCEA00E3E95E /* MyView.xib */; };
 		4A0A87F22297DCFD00E3E95E /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A87F12297DCFD00E3E95E /* MyView.swift */; };
+		4A0A87F42297E2CB00E3E95E /* MyViewSecond.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0A87F32297E2CB00E3E95E /* MyViewSecond.xib */; };
+		4A0A87F62297E2D500E3E95E /* MyViewSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A87F52297E2D500E3E95E /* MyViewSecond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4A0A87E92297DC7700E3E95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A0A87EF2297DCEA00E3E95E /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
 		4A0A87F12297DCFD00E3E95E /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		4A0A87F32297E2CB00E3E95E /* MyViewSecond.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewSecond.xib; sourceTree = "<group>"; };
+		4A0A87F52297E2D500E3E95E /* MyViewSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewSecond.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				4A0A87E62297DC7700E3E95E /* LaunchScreen.storyboard */,
 				4A0A87E92297DC7700E3E95E /* Info.plist */,
 				4A0A87EF2297DCEA00E3E95E /* MyView.xib */,
+				4A0A87F32297E2CB00E3E95E /* MyViewSecond.xib */,
+				4A0A87F52297E2D500E3E95E /* MyViewSecond.swift */,
 				4A0A87F12297DCFD00E3E95E /* MyView.swift */,
 			);
 			path = Xib;
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0A87F42297E2CB00E3E95E /* MyViewSecond.xib in Resources */,
 				4A0A87E82297DC7700E3E95E /* LaunchScreen.storyboard in Resources */,
 				4A0A87F02297DCEA00E3E95E /* MyView.xib in Resources */,
 				4A0A87E52297DC7700E3E95E /* Assets.xcassets in Resources */,
@@ -144,6 +151,7 @@
 			files = (
 				4A0A87F22297DCFD00E3E95E /* MyView.swift in Sources */,
 				4A0A87E02297DC7500E3E95E /* ViewController.swift in Sources */,
+				4A0A87F62297E2D500E3E95E /* MyViewSecond.swift in Sources */,
 				4A0A87DE2297DC7500E3E95E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

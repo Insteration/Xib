@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,25 +15,30 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Xib" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DL8-2J-1n0" customClass="MyView" customModule="Xib" customModuleProvider="target">
-                                <rect key="frame" x="87" y="389" width="240" height="128"/>
+                                <rect key="frame" x="40" y="210" width="240" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.59850016210000001" blue="0.38219876229999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="1rh-sI-dwd"/>
-                                    <constraint firstAttribute="width" secondItem="DL8-2J-1n0" secondAttribute="height" multiplier="15:8" id="nWI-Eu-4Fy"/>
-                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="textLabelText" value="Fuck"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7Y-1t-E3p" customClass="MyViewSecond" customModule="Xib" customModuleProvider="target">
+                                <rect key="frame" x="40" y="507" width="240" height="41"/>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="DL8-2J-1n0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="YFg-9k-V3a"/>
-                            <constraint firstItem="DL8-2J-1n0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="veJ-7w-ioQ"/>
+                            <constraint firstItem="DL8-2J-1n0" firstAttribute="trailing" secondItem="I7Y-1t-E3p" secondAttribute="trailing" id="2fB-1y-S5K"/>
+                            <constraint firstItem="DL8-2J-1n0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="190" id="3dO-ph-kZN"/>
+                            <constraint firstItem="DL8-2J-1n0" firstAttribute="leading" secondItem="I7Y-1t-E3p" secondAttribute="leading" id="ETE-SY-xZU"/>
+                            <constraint firstAttribute="bottom" secondItem="DL8-2J-1n0" secondAttribute="bottom" constant="230" id="UFj-bu-Uzf"/>
+                            <constraint firstItem="DL8-2J-1n0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YK1-Ht-Hsk"/>
+                            <constraint firstAttribute="bottom" secondItem="I7Y-1t-E3p" secondAttribute="bottom" constant="20" symbolic="YES" id="fM6-vY-k2o"/>
+                            <constraint firstItem="DL8-2J-1n0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="zum-cP-MSd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
