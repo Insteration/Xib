@@ -12,6 +12,8 @@
 		4A0A87E32297DC7500E3E95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0A87E12297DC7500E3E95E /* Main.storyboard */; };
 		4A0A87E52297DC7700E3E95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0A87E42297DC7700E3E95E /* Assets.xcassets */; };
 		4A0A87E82297DC7700E3E95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0A87E62297DC7700E3E95E /* LaunchScreen.storyboard */; };
+		4A0A87F02297DCEA00E3E95E /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0A87EF2297DCEA00E3E95E /* MyView.xib */; };
+		4A0A87F22297DCFD00E3E95E /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0A87F12297DCFD00E3E95E /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4A0A87E42297DC7700E3E95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A0A87E72297DC7700E3E95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A0A87E92297DC7700E3E95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0A87EF2297DCEA00E3E95E /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		4A0A87F12297DCFD00E3E95E /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4A0A87E42297DC7700E3E95E /* Assets.xcassets */,
 				4A0A87E62297DC7700E3E95E /* LaunchScreen.storyboard */,
 				4A0A87E92297DC7700E3E95E /* Info.plist */,
+				4A0A87EF2297DCEA00E3E95E /* MyView.xib */,
+				4A0A87F12297DCFD00E3E95E /* MyView.swift */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0A87E82297DC7700E3E95E /* LaunchScreen.storyboard in Resources */,
+				4A0A87F02297DCEA00E3E95E /* MyView.xib in Resources */,
 				4A0A87E52297DC7700E3E95E /* Assets.xcassets in Resources */,
 				4A0A87E32297DC7500E3E95E /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0A87F22297DCFD00E3E95E /* MyView.swift in Sources */,
 				4A0A87E02297DC7500E3E95E /* ViewController.swift in Sources */,
 				4A0A87DE2297DC7500E3E95E /* AppDelegate.swift in Sources */,
 			);
