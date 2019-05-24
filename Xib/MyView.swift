@@ -26,7 +26,6 @@ class MyView: UIView {
     var view: UIView!
     var nibName: String = "MyView"
     
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -50,6 +49,7 @@ class MyView: UIView {
         view = loadFromNib()
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.backgroundColor = .purple
         addSubview(view)
     }
     
