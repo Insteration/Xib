@@ -12,7 +12,7 @@ class MyView: UIView {
 
     @IBOutlet weak var myLabel: UILabel!
     
-    var textLabelText: String {
+    @IBInspectable var textLabelText: String {
         
         get {
             return myLabel.text!

@@ -25,6 +25,9 @@
                                     <constraint firstAttribute="width" constant="240" id="1rh-sI-dwd"/>
                                     <constraint firstAttribute="width" secondItem="DL8-2J-1n0" secondAttribute="height" multiplier="15:8" id="nWI-Eu-4Fy"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textLabelText" value="Fuck"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
